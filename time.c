@@ -1,13 +1,14 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+#include <stdlib.h>
+int numMinutes = 103; 
+int main (void)
 {
-      int hours, minutes, total_minutes;
-      printf("\nEnter the Time in Hours and Minutes:\n");
-      printf("\nHours:\t");
-      scanf("%d", &hours);
-      printf("\nMinutes:\t");
-      scanf("%d", &minutes);
-      total_minutes = (hours * 60) + minutes;
-      printf("\nTotal Time in Minutes:\t%d\n", total_minutes);
-      return 0;
+if ( (numMinutes / 60) == 1 ) 
+printf("%01d hour",numMinutes/60);
+else 
+printf("%01d hours",numMinutes/60);
+if ( (numMinutes % 60) == 1)
+else 
+printf(" %01d minutes\n",numMinutes%60);
+return 0;
 }
