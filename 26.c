@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include<conio.h>
-void main() 
+int main() 
 {
 int a,k,j,n;
-printf("enter the number:");
+printf("enter the num:");
 scanf("%d",&a);
 int b[a];
 for(k=1;k<=a;k++)
@@ -25,5 +24,5 @@ if(b[k]>b[j])
 }
 }
 printf("\n Output\n %d",b[(a/2+1)]);
-getch();
+return 0;
 }
