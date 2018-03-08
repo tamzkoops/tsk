@@ -1,12 +1,14 @@
 #include <stdio.h>
-#include<math.h>
-int main()
-{ 
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(b%a==0)
-    printf("GCD:%d",a);
-    else if(a%b==0)
-    printf("GCD:%d",b);
-    return 0;
+void main()
+{
+    int n1, n2, i, gcd;
+    printf("Enter two integers: ");
+    scanf("%d %d", &n1, &n2);
+    for(i=1; i <= n1 && i <= n2; ++i)
+    {
+       
+        if(n1%i==0 && n2%i==0)
+            gcd = i;
+    }
+    printf(" %d  %d", n1, n2, gcd);
 }
