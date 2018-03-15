@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int main(void) 
+int main() 
 {
 	float p,r,result;
 	int si,n;
