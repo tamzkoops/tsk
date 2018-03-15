@@ -2,10 +2,10 @@
 int main() 
 {
 	float p,r,result;
-	int si,n;
+	int ta,n;
 	scanf("%f %d %f",&p,&n,&r);
 	result=((p*n*r)/100);
-	si=floor(result);
-	printf("\n%d",si);
+	ta=floor(result);
+	printf("\n%d",ta);
 	return 0;
 }
