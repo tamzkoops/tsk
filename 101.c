@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 char str[100];
 int n,i,len;
@@ -13,4 +13,5 @@ for(i=len-n;str[i]!='\0';i++)
 {
 printf("%c",str[i]);
 }
+  return 0;
 }
