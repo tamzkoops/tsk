@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int N;
+	int a;
 	printf("Enter the Number:");
-	scanf("%d",&N);
-	printf("The Integer Character is %c",(N+64));
+	scanf("%d",&a);
+	printf("The Integer Character is %c",(a+64));
 	return 0;
 }
